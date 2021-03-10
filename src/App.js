@@ -2,12 +2,14 @@ import './App.css';
 import React from "react";
 import Header from "./header";
 import Section from "./section";
+import SideBar from "./components/SideBar";
 
 
 function App() {
   return (
     <>
       <Header/>
+      <SideBar />
       <Section invoiceName="#RT3080" date="Due 19 aug 2019" userName="Jensem Huemg" bill="$1000" status="paid"/>
       <br/>
       <Section invoiceName="#XMLJFU" date="Due 19 dec 2019" userName="chuem Huemg" bill="$1800" status="pending"/>
